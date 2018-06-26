@@ -195,7 +195,7 @@
     border-color: black;
   }
 
-  #bmenu_toggle::checked ~ label.bmenu.toggle:hover .heavy {
+  #bmenu_toggle:checked ~ label.bmenu.toggle:hover .heavy {
     text-shadow: 0 1px 0 white;
   }
   #bmenu_toggle:not(:checked) ~ label.bmenu.toggle:hover .heavy {
