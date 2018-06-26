@@ -285,12 +285,12 @@
       max-height: 463px;
     }
     100% {
-      max-height: auto;
+      max-height: unset;
     }
   }
   @keyframes roll-closed {
     0% {
-      max-height: auto;
+      max-height: unset;
     }
     1% {
       max-height: 463px;
